@@ -4,7 +4,7 @@
   "main": "api/server.js",
   "scripts": {
     "start": "node api/server.js",
-    "dev": "vercel dev",
+    "dev": "vercel dev"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,6 @@
   "dependencies": {
     "express": "^4.21.1",
     "cors":"^2.x.x",
-    "socket.io": "^4.8.1",
+    "socket.io": "^4.8.1"
   }
 }
