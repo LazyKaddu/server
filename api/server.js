@@ -5,7 +5,7 @@ const socketIo = require('socket.io');
 
 const app = express();
 app.use(cors({
-  origin: '*', // Allow requests from this origin
+  origin: ["http://localhost:5173",'*'], // Allow requests from this origin
   methods: ['GET', 'POST'], // Specify allowed methods
   credentials: true // Allow credentials if needed
 }));
